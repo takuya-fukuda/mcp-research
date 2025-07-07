@@ -18,7 +18,7 @@ server_params = StdioServerParameters(
         "-y",
         "@modelcontextprotocol/server-filesystem",
         #"/Users/username/Desktop"
-        "/Users/fukuda_takuya/Desktop"
+        "/Users/fukuda_takuya/Desktop/knowledge"
         ],
 )
 
@@ -30,7 +30,7 @@ async def main():
             agent = create_react_agent("openai:gpt-4o",tools=tools) #openai
             #response = await agent.invoke({"message": "デスクトップに何がある？"})
             #response = agent.invoke({"messages": [{"role": "user", "content": "デスクトップに何がある？"}]})
-            response = await agent.ainvoke({"messages": [{"role": "user", "content": "デスクトップに何がある？"}]})
+            response = await agent.ainvoke({"messages": [{"role": "user", "content": "/Users/fukuda_takuya/Desktop/knowledge/Android.txtには何が書いてありますか？"}]})
             print(response)
 
 if __name__ == "__main__":
