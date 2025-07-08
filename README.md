@@ -2,6 +2,9 @@
 
 ClaudeDesktop や Cursor からではなく自作アプリから MCP サーバを利用する
 
+MCP を用いた RAG 的なところを行いたいのであれば、下記参照  
+https://github.com/takuya-fukuda/rag-research
+
 ## サンプル ①
 
 Langchain の MCPAdapter を使用して、自身の Desktop を参照する MCP サーバと接続する例
