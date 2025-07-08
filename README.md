@@ -1,6 +1,7 @@
 # 概要
 
-ClaudeDesktop や Cursor からではなく自作アプリから MCP サーバを利用する
+ClaudeDesktop や Cursor からではなく自作アプリから MCP サーバを利用する。  
+ただしつなぎ込みする為のスクリプト開発までです。
 
 MCP を用いた RAG 的なところを行いたいのであれば、下記参照  
 https://github.com/takuya-fukuda/rag-research
