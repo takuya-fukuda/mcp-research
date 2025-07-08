@@ -55,7 +55,7 @@ if __name__ == "__main__":
 参考：https://dev.classmethod.jp/articles/notion-mcp-server-guide-with-claude-desktop/
 
 インテグレーションを Notion で作成する。なお仕様上手動で自分のワークスペースにも接続ボタンから許可をしないといけない
-![画面イメージ](./assets/sample1.jpg)
+![画面イメージ](./sample1.jpg)
 
 スクリプトを実行するカレントディレクトリ上で下記実行（Node.js がインストールされていること）
 
