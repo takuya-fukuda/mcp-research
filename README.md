@@ -52,8 +52,10 @@ if __name__ == "__main__":
 
 ## サンプル ② Notion と接続し、Notion 内ナレッジを参照
 
-https://dev.classmethod.jp/articles/notion-mcp-server-guide-with-claude-desktop/  
-上記を自分のアプリで使用できるように以下工夫
+参考：https://dev.classmethod.jp/articles/notion-mcp-server-guide-with-claude-desktop/
+
+インテグレーションを Notion で作成する。なお仕様上手動で自分のワークスペースにも接続ボタンから許可をしないといけない
+![画面イメージ](./assets/sample1.jpg)
 
 スクリプトを実行するカレントディレクトリ上で下記実行（Node.js がインストールされていること）
 
